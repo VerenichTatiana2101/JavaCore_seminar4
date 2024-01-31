@@ -1,0 +1,14 @@
+Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Кола 2л,  Name = Oleg, Total = 200.0]
+Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Спрайт 1л,  Name = Тatiana, Total = 190.0]
+Недостаточно средств на счету
+Пицца Марти - отсутствует в продаже
+Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Спрайт 1л,  Name = Тatiana, Total = 190.0]
+Пицца Марти - отсутствует в продаже
+Покупатель Name: Тatiana
+Cash: 830.0Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Спрайт 1л,  Name = Тatiana, Total = 190.0]
+Пицца Марти - отсутствует в продаже
+Покупатель Name: Oleg. Cash: 920.0 ->  -> Пицца Марти - отсутствует в продаже
+Покупатель Name: Тatiana. Cash: 830.0 ; Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Спрайт 1л,  Name = Тatiana, Total = 190.0]
+Покупатель Name: Oleg. Cash: 920.0 ;  -> Пицца Марти - отсутствует в продаже
+Покупатель Name: Тatiana. Cash: 830.0; Заказ принят: Shopper bag: [ Product 1=Пицца Паперони,  Product 2=Спрайт 1л,  Name = Тatiana, Total = 190.0]
+Покупатель Name: Oleg. Cash: 920.0;  -> Пицца Марти - отсутствует в продаже
