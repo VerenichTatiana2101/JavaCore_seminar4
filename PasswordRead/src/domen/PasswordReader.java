@@ -1,4 +1,4 @@
-package domen;
+package PasswordRead.src.domen;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,9 +6,10 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.LocalDate;
 
-import exceptions.WrongLoginException;
-import exceptions.WrongPasswordException;
+import PasswordRead.src.exceptions.WrongLoginException;
+import PasswordRead.src.exceptions.WrongPasswordException;
 
 public class PasswordReader {
 
@@ -32,7 +33,7 @@ public class PasswordReader {
             loggingReader(e.getMessage(), path);
             return false;
         }
-        loggingReader("ok ", path);
+        loggingReader("Пароли совпадают, данные сохранены ", path);
         return true;
     }
 
@@ -40,7 +41,7 @@ public class PasswordReader {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(path2, true))) { //без true старую строку стирает
             bw.write(msg);
             bw.newLine();
-            System.out.println(msg);
+            System.out.println(msg + " Date " + LocalDate.now());
             System.out.println("Log записан успешно");
             bw.close();
         } catch (IOException e) {

@@ -1,4 +1,4 @@
-package exceptions;
+package PasswordRead.src.exceptions;
 
 public class WrongPasswordException extends Exception {
     String msg;
